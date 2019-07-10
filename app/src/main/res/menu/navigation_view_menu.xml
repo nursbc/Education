@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/navitation_item_list"
+            android:visible="true"
+            android:checked="false"
+            android:title="@string/bottom_navigation_list"
+            android:icon="@drawable/bottom_navigation_list_icon"/>
+
+        <item
+            android:id="@+id/navitation_item_camera"
+            android:visible="true"
+            android:checked="false"
+            android:title="@string/bottom_navigation_camera"
+            android:icon="@drawable/navigation_view_camer_icon"/>
+
+        <item
+            android:id="@+id/navitation_item_player"
+            android:visible="true"
+            android:checked="false"
+            android:title="@string/bottom_navigation_player"
+            android:icon="@drawable/navigation_item_player_icon"/>
+    </group>
+</menu>

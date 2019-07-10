@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Education</string>
+
+    <string name="activity_main_login_field">Введите логин</string>
+    <string name="activity_main_password_field">Введите пароль</string>
+    <string name="activity_main_action_login">Войти</string>
+    <string name="activity_main_action_share">Поделиться</string>
+    <string name="activity_main_toast_message_login_success">Авторизация успешна</string>
+    <string name="activity_main_toast_message_login_failure">Авторизация не пройдена!</string>
+
+    <string name="navigation_menu_open">Navigation View</string>
+    <string name="navigation_menu_close">Navigation View Closed</string>
+
+    <string name="fragment_view_pager_toolbar_title">ViewPager</string>
+
+    <string name="fragment_view_pager_button_previous">Предыдущий</string>
+    <string name="fragment_view_pager_button_next">Следующий</string>
+
+    <string name="activity_second_radiobutton_happy_text">Happy Text</string>
+    <string name="activity_second_radiobutton_sad_text">Sad Text</string>
+    <string name="activity_second_radiobutton_glory_text">Glory Text</string>
+    <string name="activity_second_hint_example">Text will be displayed here!</string>
+
+    <string name="bottom_navigation_profile">Профиль</string>
+    <string name="bottom_navigation_camera">Камера</string>
+    <string name="bottom_navigation_player">Плеер</string>
+    <string name="bottom_navigation_splash">Сплашь</string>
+    <string name="bottom_navigation_list">Список</string>
+</resources>

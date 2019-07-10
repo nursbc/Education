@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_fragment_tutorial_slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_fragment_viewpager_previous"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:visibility="invisible"
+            android:text="@string/fragment_view_pager_button_previous"
+            android:textSize="14sp"
+            android:textColor="@color/color_white_project"
+            android:background="@null"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/button_fragment_viewpager_next"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textSize="14sp"
+            android:text="@string/fragment_view_pager_button_next"
+            android:textColor="@color/color_white_project"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</RelativeLayout>

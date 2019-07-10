@@ -1,0 +1,27 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="SeconActivityStyle" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/color_blue_project</item>
+        <item name="colorPrimaryDark">@color/color_blue_project</item>
+        <item name="colorAccent">@color/color_blue_project</item>
+    </style>
+
+    <style name="SwitchStyle" parent="Base.Widget.AppCompat.CompoundButton.Switch">
+        <item name="colorAccent">@color/color_blue_project</item>
+    </style>
+
+    <style name="CheckboxStyle" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="colorAccent">@color/color_blue_project</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="colorAccent">@color/color_blue_project</item>
+    </style>
+</resources>
